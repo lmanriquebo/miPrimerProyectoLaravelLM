@@ -53,7 +53,7 @@ class controllerPrincipal extends Controller
     }
 
     public function updateCell(RutasPhones $RutasPhones){
-        dd($RutasPhones);
+        dd("actualizar");
 
         /*$data = request()->except(['_token']);
         request()->validate([
